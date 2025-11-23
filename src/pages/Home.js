@@ -57,7 +57,38 @@ function Home() {
         </div>
       </div>
 
-      
+          <div className="bg-light py-5">
+        <div className="container">
+          <h2 className="text-center mb-4">Why Choose BookStore?</h2>
+          <div className="row">
+            <div className="col-md-4 text-center mb-3">
+              <div className="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center" 
+                   style={{ width: '80px', height: '80px' }}>
+                <i className="bi bi-truck fs-2"></i>
+              </div>
+              <h4 className="mt-3">Fast Delivery</h4>
+              <p>Get your books delivered within 2-3 business days</p>
+            </div>
+            <div className="col-md-4 text-center mb-3">
+              <div className="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center" 
+                   style={{ width: '80px', height: '80px' }}>
+                <i className="bi bi-shield-check fs-2"></i>
+              </div>
+              <h4 className="mt-3">Secure Payment</h4>
+              <p>100% secure payment with money-back guarantee</p>
+            </div>
+            <div className="col-md-4 text-center mb-3">
+              <div className="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center" 
+                   style={{ width: '80px', height: '80px' }}>
+                <i className="bi bi-headset fs-2"></i>
+              </div>
+              <h4 className="mt-3">24/7 Support</h4>
+              <p>Round the clock customer support for all your queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
