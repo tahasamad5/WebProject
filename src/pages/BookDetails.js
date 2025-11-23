@@ -27,7 +27,23 @@ function BookDetails({ addToCart }) {
     setTimeout(() => setShowAlert(false), 3000);
   };
 
- 
+ return (
+    <div className="container my-5">
+         {showAlert && (
+        <div className="alert alert-success alert-dismissible fade show" role="alert">
+          <i className="bi bi-check-circle me-2"></i>
+          Book added to cart successfully!
+          <button 
+            type="button" 
+            className="btn-close" 
+            onClick={() => setShowAlert(false)}
+          ></button>
+        </div>
+      )}
+
+      
+
+    </div>)
 }
 
 export default BookDetails;
